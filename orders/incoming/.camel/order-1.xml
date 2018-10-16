@@ -1,7 +1,10 @@
 <order>
+	<orderId>1</orderId>
+	<orderDateTime>2018-10-10 20:30:20</orderDateTime>
 	<orderItems>
 		<orderItem>
-			<orderItemQty>1</orderItemQty>
+			<orderItemPublisherName>ABC Company</orderItemPublisherName>
+			<orderItemQty>2</orderItemQty>
 		</orderItem>
 	</orderItems>
 </order>

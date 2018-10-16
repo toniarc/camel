@@ -1,7 +1,9 @@
 <order>
+	<orderId>3</orderId>
 	<orderItems>
 		<orderItem>
-			<orderItemQty>1</orderItemQty>
+			<orderItemPublisherName>ORly</orderItemPublisherName>
+			<orderItemQty>2</orderItemQty>
 		</orderItem>
 	</orderItems>
 </order>
