@@ -1,0 +1,4 @@
+com/redhat/route/FTPRouteBuilder.class
+com/redhat/processor/ExchangePrinter.class
+com/redhat/route/FileRouteBuilder.class
+com/redhat/route/RouteBasedContentRouteBuilder.class
