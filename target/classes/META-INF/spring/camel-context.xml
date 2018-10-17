@@ -10,6 +10,9 @@
 	<bean class="com.redhat.route.FTPRouteBuilder" id="ftpRouteBuilder" />
 	<bean class="com.redhat.route.RouteBasedContentRouteBuilder" id="routeBasedContentRouteBuilder" />
 	<bean class="com.redhat.route.CBRRouteBuilder" id="cBRRouteBuilder" />
+	<bean class="com.redhat.route.TransformRouteBuilder" id="transformRouteBuilder" />
+	<bean class="com.redhat.route.TransformRouteBuilder2" id="transformRouteBuilder2" />
+	<bean class="com.redhat.route.AggregateRouteBuilder" id="aggregateRouteBuilder" />
 
 	<bean class="org.apache.activemq.camel.component.ActiveMQComponent" id="activemq">
 		<property name="connectionFactory">
@@ -21,7 +24,7 @@
 
 	<camelContext xmlns="http://camel.apache.org/schema/spring">
 
-		<routeBuilder ref="cBRRouteBuilder" />
+		<routeBuilder ref="aggregateRouteBuilder" />
 
 	</camelContext>
 
