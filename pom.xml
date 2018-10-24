@@ -80,6 +80,16 @@
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-bindy</artifactId>
 		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-test</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-test-spring</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>xom</groupId>

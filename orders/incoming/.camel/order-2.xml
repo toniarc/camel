@@ -1,9 +1,0 @@
-<order>
-	<orderId>2</orderId>
-	<orderItems>
-		<orderItem>
-			<orderItemPublisherName>ABC Company</orderItemPublisherName>
-			<orderItemQty>2</orderItemQty>
-		</orderItem>
-	</orderItems>
-</order>
